@@ -1,0 +1,12 @@
+numpy
+pandas
+matplotlib
+scikit-learn
+seaborn
+ipython
+ipykernel
+jupyter
+NLTK
+spacy
+TextBlob
+gensim
