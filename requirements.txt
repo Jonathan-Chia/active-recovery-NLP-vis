@@ -10,3 +10,5 @@ NLTK
 spacy
 TextBlob
 gensim
+sentence-transformers
+vaderSentiment
