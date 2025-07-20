@@ -12,3 +12,4 @@ TextBlob
 gensim
 sentence-transformers
 vaderSentiment
+altair

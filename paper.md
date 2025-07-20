@@ -25,6 +25,37 @@ the different analysis that you performed, libraries used, and show some of the
 results such as word frequencies, correlations, length, etc…. Please feel free to
 include tables, summaries, etc…
 
+### Questions
+
+1. According to DeepSeek, how related are these active recovery protocols? 
+2. What are the main benefits, and how do these benefits overlap?  
+3. How can I summarize all of this text data into one visualization to give an overview? 
+4. What are the most relevant terms for each active protocol? 
+5. 
+
+### Initial Exploration
+
+First, I asked DeepSeek some general questions about active recovery, and then I placed the answers into the [active_recovery](active_recovery.txt) file. 
+
+From there, I started playing around with the data in my [draft](draft.ipynb) notebook. I realized I could do much better text analysis if I had some better separation of my text. 
+
+Thus, I went back to the drawing board and split my text data into three parts for each of the protocols:
+
+1. Overview
+2. Execution
+3. Benefits
+
+This would allow me to much easier get answers and visualizations for questions 1 and 2. 
+
+### Question 1: How Related Are these Active Recovery Protocols? 
+
+The best way to visualize this would be through a correlation heatmap. To get these correlations, I decided to turn these protocols into vector embeddings, and then calculate the cosine similarity. 
+
+ADD EMBEDDINGS HOW DO THEY WORK SOURCE
+
+I don't need a particularly fancy model, so I decided to use all-miniLM-L6-v2 model to generate the embeddings. 
+
+
 
 ## Visualization of Text Analysis
 include screenshots of five visualization techniques
