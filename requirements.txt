@@ -13,3 +13,7 @@ gensim
 sentence-transformers
 vaderSentiment
 altair
+plotly
+tabulate
+wordcloud
+holoviews
