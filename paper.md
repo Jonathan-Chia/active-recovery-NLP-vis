@@ -20,10 +20,6 @@ This project aims to visualize some of the text outputs from DeepSeek about the 
 * Sleeping
 
 ## Analysis
-Explain the data and results of your text or NLP analysis. Clearly explain
-the different analysis that you performed, libraries used, and show some of the
-results such as word frequencies, correlations, length, etc…. Please feel free to
-include tables, summaries, etc…
 
 ### Questions
 
@@ -259,7 +255,7 @@ In conclusion, I learned a few different text analytics techniques for this proj
 
 My biggest learning is that sentiment analysis is very difficult. The entire cryotherapy section focused on reducing stress, anxiety, and depression, but my sentiment analysis marked these as negative statements. I can see why leveraging advanced NLP deep learning networks would be best compared to leveraging rule-based systems like VADER. I also recognize that VADER was made specifically for analyzing social media sentiment, so it doesn't apply best here in a more scientific context. 
 
-Another huge takeaway is that chord charts can sometimes be better than heatmaps! It's easier to visualize width than read a number. 
+Another huge takeaway is that chord charts can be better than heatmaps! It's easier to visualize width than read a number. 
 
 ## References
 
